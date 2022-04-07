@@ -7,7 +7,7 @@ const CACHE_DYNAMIC_NAME = 'dynamic-v1';
 const CACHE_INMUTABLE = 'inmutable-v1';
 
 const APP_SHELL = [
-    '/','index.html','css/style.css','img/favicon.ico','js/app.js','img/avs/client.jpg'
+    'pwa.github.io/','pwa.github.io/index.html','pwa.github.io/css/style.css','pwa.github.io/img/favicon.ico','pwa.github.io/js/app.js','pwa.github.io/img/avs/client.jpg'
 ];
 
 const APP_INMUTABLE = [
