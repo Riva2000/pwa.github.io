@@ -1,7 +1,7 @@
 //Archivo sw.js
 //Agregar la referencia al archivo js/sw-acceces.js
 
-importScripts('/pwa.github.io/js/sw-acces.js')
+importScripts('/pwa.github.io/js/sw-access.js')
 const CACHE_NAME = 'cache-v1';
 const CACHE_DYNAMIC_NAME = 'dynamic-v1';
 const CACHE_INMUTABLE = 'inmutable-v1';
