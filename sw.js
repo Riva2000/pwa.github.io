@@ -53,7 +53,7 @@ self.addEventListener('fetch', event => {
     const respuesta = caches.match(event.request).then( res => {
         if(res){return res;}
         else{
-            return fetch(e.request).then(newRes => {
+            return fetch(event.request).then(newRes => {
                 //Agregar en el directorio /js un archivo llamdado sw-acces.js
                 //y programar la funcion actualizaCacheDinamico, para tener mas limpio el proyecto.
                 return actualizaCacheDinamico(CACHE_DYNAMIC_NAME, event.request, newRes);
